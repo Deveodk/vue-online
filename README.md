@@ -6,6 +6,11 @@
 
 > An easy way to show if a users browser is online, with support for custom notification drivers. Inspired by Sopamo/vue-online.
 
+# Demo
+See a functioning demo
+<a href="https://packages.deveo.io/packages/vue/vue-online">deveo demo site</a>
+
+
 ## Installation
 
 ```bash
@@ -16,21 +21,14 @@ npm install --save @deveodk/vue-online
 
 ```js
 import Vue from 'vue'
-import @deveodk/vueOnline from '@deveodk/vue-online'
-
-Vue.use(@deveodk/vueOnline)
+import vueOnline from '@deveodk/vue-online'
+Vue.use(vueOnline)
 ```
 
 ### Browser
 
 ```html
-<!-- Include after Vue -->
-<!-- Local files -->
-<link rel="stylesheet" href="@deveodk/vue-online/dist/@deveodk/vue-online.css"></link>
-<script src="@deveodk/vue-online/dist/@deveodk/vue-online.js"></script>
-
 <!-- From CDN -->
-<link rel="stylesheet" href="https://unpkg.com/@deveodk/vue-online/dist/@deveodk/vue-online.css"></link>
 <script src="https://unpkg.com/@deveodk/vue-online"></script>
 ```
 
