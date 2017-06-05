@@ -10,7 +10,8 @@
   "style": "dist/@deveodk/vue-online.css",
   "files": [
     "dist",
-    "src"
+    "src",
+    "drivers"
   ],
   "scripts": {
     "clean": "rimraf dist",
