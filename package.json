@@ -1,6 +1,6 @@
 {
   "name": "@deveodk/vue-online",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An easy way to show if a users browser is online, with support for custom notification drivers. Inspired by Sopamo/vue-online.",
   "author": "Jason Kelly <jk@deveo.dk>",
   "main": "dist/@deveodk/vue-online.common.js",
